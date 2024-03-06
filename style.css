@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #2B70E4;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0px 10px 14px 6px #1c54b1;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.select-card {
+    max-width: 300px;
+}
+
+.weather-card {
+    display: none;
+    max-width: 400px;
+}
+
+.logo {
+    width: 30%;
+}
+
+button {
+    background-color: #fddc6a;
+    margin-top: 10px;
+    border: none;
+    font-size: medium;
+    color: #1c54b1;
+    border-radius: 5px;
+    width: 50%;
+    height: 33px;
+    cursor: pointer;
+    transition: .3s;
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+    background-color: #cdb357;
+}
+
+
+#icon {
+    width: 25%;
+}
